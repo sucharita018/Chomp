@@ -12,6 +12,7 @@ Each square is filled with a cookie, except for the bottom left one.
 The bottom left piece is poison, as shown below:
 
 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪
+
 💀 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪
 
 I will be using python coordinates in this game when we want to specify some particular square.
