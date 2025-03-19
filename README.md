@@ -9,17 +9,17 @@ The whole game will be played against the computer in the terminal.
 Let me describe the game first.
 The game takes place on a 2x12 grid.
 Each square is filled with a cookie, except for the bottom left one.
-The bottom left piece is poison, as shown below:
-🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪
-💀 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪
+The bottom left piece is poison, as shown below:\\
+🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪\\
+💀 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪\\
 I will be using python coordinates in this game when we want to specify some particular square.
 It is a two-player game.
 In our case me vs the computer.
 Each player will play in turns.
 When it is a player's turn, they will choose a square, and all cookies top right of that will be consumed by that player.
-For example, say player 1 chooses (1,8) then the rest of the cookies would be:
-🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪
-💀 🍪 🍪 🍪 🍪 🍪 🍪 🍪
+For example, say player 1 chooses (1,8) then the rest of the cookies would be:\\
+🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪\\
+💀 🍪 🍪 🍪 🍪 🍪 🍪 🍪\\
 The goal would be to avoid the poison piece.
 Since in each turn a player would have to consume at least one cookie, someone will have to consume the poison piece.
 That player will loose who would be forced to consume the poison piece.
